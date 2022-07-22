@@ -1,0 +1,178 @@
+@import "/css-rest.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+
+p,h1,h2,ul,li {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 64px;
+    line-height: 84px;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+.header{
+    height: 958px;
+    background-image: url(image/banner.png);
+    background-size: cover;
+    .text{
+        width: 304px;
+        padding-top: 308px;
+        text-align: left;
+        color:#ffff ;
+        .p1{
+            line-height: 42px;
+            font-weight: Medium Italic;
+        }
+        h1{
+            font-size: 80px;
+            line-height: 106px;
+            font-weight:Black Italic;
+            margin-bottom: 32px;
+        }
+        .p2{
+            line-height: 36px;
+            font-weight: Bold Italic;
+            margin-bottom: 40px;
+        }
+    }
+    .socialmedia{
+        width: 304px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        a{
+            display: block;
+        }
+        a:hover{
+            opacity: 0.7;
+        }
+    }
+}
+
+.profile{
+    .about{
+        padding-top: 56px;
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        align-items: center;
+    }
+    .list{
+        margin-top: 20px;
+        margin-bottom: 24px;
+        text-align: center;
+        font-weight: bold;
+        li{
+            line-height: 42px;
+        }
+        .lh36{
+            line-height: 36px;
+        }
+    }
+    .career{
+        border-top: 1px solid #000;
+        padding-top: 28px;
+        li{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            line-height: 1.75;
+            font-style: italic;
+            font-weight: bold;
+            div{
+                margin-right:16px;
+                width: 22px;
+                height: 22px;
+                background-color: #891818;
+                border-radius: 50%;
+            }
+        }
+        }
+}
+
+
+.brand{
+    margin-top: 56px;
+    padding-top: 56px;
+    padding-bottom: 120px;
+    background-color: #000;
+    color: #ffff;
+    text-align: center;
+    font-weight: Medium Italic;
+    .brand_p1{
+        margin-top: 12px;
+        font-size: 24px;
+        line-height: 42px;
+    }
+    .brand_p2{
+        margin-top: 32px;
+        font-size: 20px;
+        line-height: 30px;      
+        }
+    ul{
+        width: 1240px;
+        margin: 0 auto;
+        margin-top: 68px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        img{
+            margin-bottom: 40px;
+            margin-left: 24px;
+        }
+    }
+}
+.works{
+margin-top: 56px;
+text-align: center;
+   p{
+    margin-top: 16px;
+   } 
+   .worklist{
+    margin-top: 56px;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 48px;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 42px;
+        font-weight: Medium Italic;
+        margin-top: 16px;
+    }  
+    }
+   }
+.footer{
+    background-color: #000;
+    margin-top: 144px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    color: #ffff;
+    text-align: center;
+    ul{
+        margin-top: 16px;
+        li{
+            margin-top: 16px;
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: Medium Italic;
+            text-decoration: none;
+            a{
+                text-decoration: none;
+                color: #ffff;
+                ＆:hover{
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}

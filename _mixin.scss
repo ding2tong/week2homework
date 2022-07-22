@@ -1,0 +1,4 @@
+@mixin font($fsz,$lh,$family) {
+    font-size: $fsz;
+    line-height: $lh;
+}
